@@ -1,11 +1,10 @@
 import { Component, EventEmitter, INJECTOR, Input, Output, output } from '@angular/core';
 
-import { User } from './user.model';
+import { type User } from './user.model';
 
 @Component({
   selector: 'app-user',
-  imports: [],
-  standalone: true,
+  standalone: false,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })

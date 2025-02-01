@@ -1,7 +1,5 @@
 import { Injectable } from "@angular/core";
 import { type newTaskData } from "./task/task.model";
-import { NewTaskComponent } from "./new-task/new-task.component";
-
 
 function generateRandomID() {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
